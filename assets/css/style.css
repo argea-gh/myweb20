@@ -1464,6 +1464,55 @@ body {
   left: -24px;
 }
 
+/* MODAL CARA PAKAI */
+.how-to-use-list,
+.composition-list {
+  padding-left: 24px;
+  margin: 8px 0 0;
+  list-style-type: none;
+}
+
+.how-to-use-list li,
+.composition-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  position: relative;
+}
+
+/* Cara Menikmati — Nomor urut biru */
+.how-to-use-list li {
+  counter-increment: step-counter;
+}
+
+.how-to-use-list li:before {
+  content: counter(step-counter);
+  position: absolute;
+  left: -24px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Komposisi — Bullet ungu */
+.composition-list li:before {
+  content: "•";
+  position: absolute;
+  left: -24px;
+  top: 0;
+  color: #9C27B0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
 .price-section .price-large {
   font-size: 1.8rem;
   font-weight: 700;
@@ -1479,6 +1528,11 @@ body {
 
 .product-img:hover {
   transform: scale(1.02);
+}
+
+/* Reset counter untuk setiap section */
+.info-section {
+  counter-reset: step-counter;
 }
 
 /* ────────────────────────────────────────── */
