@@ -134,90 +134,107 @@ function renderProducts(category = 'all') {
 
 function openProductModal(product) {
   const priceFormatted = formatRupiah(product.price);
-  modalBody.innerHTML = `
-    <div class="product-modal-header">
-      <img src="${product.image}" alt="${product.name}" />
-      <div class="modal-info">
-        
-        <!-- Kategori -->
-        <div class="info-section">
-          <span class="info-label">Kategori</span>
-          <p class="info-value">${product.category}</p>
-        </div>
-        
-        <!-- Nama Produk -->
-        <div class="info-section">
-          <h2 class="product-name">${product.name}</h2>
-        </div>
-
-        <!-- Deskripsi -->
-        <div class="info-section">
-          <span class="info-label">Deskripsi</span>
-          <p class="info-value">${product.description || '—'}</p>
-        </div>
-
-        <!-- Manfaat Utama -->
-        <div class="info-section">
-          <span class="info-label">Manfaat Utama</span>
-          <ul class="benefits-list">
-            ${product.benefits && product.benefits.length 
-              ? product.benefits.map(b => `<li>${b}</li>`).join('')
-              : '<li>—</li>'
-            }
-          </ul>
-        </div>
-
-        <!-- Cara Menikmati (BARU) -->
-        <div class="info-section">
-          <span class="info-label">Cara Menikmati</span>
-          <ul class="how-to-use-list">
-            ${product.howToUse && product.howToUse.length 
-              ? product.howToUse.map(step => `<li>${step}</li>`).join('')
-              : '<li>—</li>'
-            }
-          </ul>
-        </div>
-
-        <!-- Komposisi (DIUBAH dari string ke list) -->
-        <div class="info-section">
-          <span class="info-label">Komposisi</span>
-          <ul class="composition-list">
-            ${product.composition && Array.isArray(product.composition)
-              ? product.composition.map(ing => `<li>${ing}</li>`).join('')
-              : '<li>${product.composition || '—'}</li>'
-            }
-          </ul>
-        </div>
-
-        <!-- Harga -->
-        <div class="info-section price-section">
-          <span class="info-label">Harga</span>
-          <div class="price-large">${formatRupiah(product.price)}</div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="btn-group">
-      <button class="btn btn-primary" id="addToCartBtn" data-id="${product.id}">
-        ➕ Tambah ke Keranjang
-      </button>
-      <a href="https://wa.me/6282241900467?text=Saya%20mau%20pesan%20${encodeURIComponent(product.name)}%2C%20harga%20${encodeURIComponent(formatRupiah(product.price))}." 
-         target="_blank" class="btn btn-whatsapp">
-        📲 Langsung ke WhatsApp
-      </a>
-    </div>
-  `;
-
+  
+  // ✅ Buat URL WhatsApp terpisah
+  const whatsappText = 'Saya mau pesan ' + product.name + ', harga ' + priceFormatted + '.';
+  const whatsappUrl = 'https://wa.me/6282241900467?text=' + encodeURIComponent(whatsappText);
+  
+  // ✅ Build HTML dengan string concatenation (lebih aman)
+  let html = '<div class="product-modal-header">';
+  html += '<img src="' + product.image + '" alt="' + product.name + '" />';
+  html += '<div class="modal-info">';
+  
+  // Kategori
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Kategori</span>';
+  html += '<p class="info-value">' + product.category + '</p>';
+  html += '</div>';
+  
+  // Nama Produk
+  html += '<div class="info-section">';
+  html += '<h2 class="product-name">' + product.name + '</h2>';
+  html += '</div>';
+  
+  // Deskripsi
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Deskripsi</span>';
+  html += '<p class="info-value">' + (product.description || '—') + '</p>';
+  html += '</div>';
+  
+  // Manfaat Utama
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Manfaat Utama</span>';
+  html += '<ul class="benefits-list">';
+  if (product.benefits && product.benefits.length) {
+    for (let i = 0; i < product.benefits.length; i++) {
+      html += '<li>' + product.benefits[i] + '</li>';
+    }
+  } else {
+    html += '<li>—</li>';
+  }
+  html += '</ul></div>';
+  
+  // Cara Menikmati (BARU)
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Cara Menikmati</span>';
+  html += '<ul class="how-to-use-list">';
+  if (product.howToUse && product.howToUse.length) {
+    for (let i = 0; i < product.howToUse.length; i++) {
+      html += '<li>' + product.howToUse[i] + '</li>';
+    }
+  } else {
+    html += '<li>—</li>';
+  }
+  html += '</ul></div>';
+  
+  // Komposisi
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Komposisi</span>';
+  html += '<ul class="composition-list">';
+  if (product.composition && Array.isArray(product.composition)) {
+    for (let i = 0; i < product.composition.length; i++) {
+      html += '<li>' + product.composition[i] + '</li>';
+    }
+  } else {
+    html += '<li>' + (product.composition || '—') + '</li>';
+  }
+  html += '</ul></div>';
+  
+  // Harga
+  html += '<div class="info-section price-section">';
+  html += '<span class="info-label">Harga</span>';
+  html += '<div class="price-large">' + priceFormatted + '</div>';
+  html += '</div>';
+  
+  html += '</div></div>'; // Tutup modal-info dan product-modal-header
+  
+  // Tombol
+  html += '<div class="btn-group">';
+  html += '<button class="btn btn-primary" id="addToCartBtn" data-id="' + product.id + '">';
+  html += '➕ Tambah ke Keranjang';
+  html += '</button>';
+  html += '<a href="' + whatsappUrl + '" target="_blank" class="btn btn-whatsapp">';
+  html += '📲 Langsung ke WhatsApp';
+  html += '</a>';
+  html += '</div>';
+  
+  // Set HTML
+  modalBody.innerHTML = html;
+  
+  // Tampilkan modal
   productModal.style.display = 'block';
-  setTimeout(() => {
+  setTimeout(function() {
     productModal.classList.add('active');
   }, 10);
-
-  // Add to cart from modal
-  document.getElementById('addToCartBtn')?.addEventListener('click', () => {
-    addToCart(product);
-    closeModal();
-  });
+  
+  // Event listener untuk tombol
+  var addToCartBtn = document.getElementById('addToCartBtn');
+  if (addToCartBtn) {
+    addToCartBtn.addEventListener('click', function() {
+      addToCart(product);
+      closeModal();
+    });
+  }
 }
 
 function closeModal() {
