@@ -138,50 +138,74 @@ function openProductModal(product) {
     <div class="product-modal-header">
       <img src="${product.image}" alt="${product.name}" />
       <div class="modal-info">
-  <div class="info-section">
-    <span class="info-label">Kategori</span>
-    <p class="info-value">${product.category}</p>
-  </div>
-  
-  <div class="info-section">
-    <h2 class="product-name">${product.name}</h2>
-  </div>
+        
+        <!-- Kategori -->
+        <div class="info-section">
+          <span class="info-label">Kategori</span>
+          <p class="info-value">${product.category}</p>
+        </div>
+        
+        <!-- Nama Produk -->
+        <div class="info-section">
+          <h2 class="product-name">${product.name}</h2>
+        </div>
 
-  <div class="info-section">
-    <span class="info-label">Deskripsi</span>
-    <p class="info-value">${product.description || '—'}</p>
-  </div>
+        <!-- Deskripsi -->
+        <div class="info-section">
+          <span class="info-label">Deskripsi</span>
+          <p class="info-value">${product.description || '—'}</p>
+        </div>
 
-  <div class="info-section">
-    <span class="info-label">Manfaat Utama</span>
-    <ul class="benefits-list">
-      ${product.benefits && product.benefits.length 
-        ? product.benefits.map(b => `<li>${b}</li>`).join('')
-        : '<li>—</li>'
-      }
-    </ul>
-  </div>
+        <!-- Manfaat Utama -->
+        <div class="info-section">
+          <span class="info-label">Manfaat Utama</span>
+          <ul class="benefits-list">
+            ${product.benefits && product.benefits.length 
+              ? product.benefits.map(b => `<li>${b}</li>`).join('')
+              : '<li>—</li>'
+            }
+          </ul>
+        </div>
 
-  <div class="info-section">
-    <span class="info-label">Komposisi</span>
-    <p class="info-value">${product.composition || '—'}</p>
-  </div>
+        <!-- Cara Menikmati (BARU) -->
+        <div class="info-section">
+          <span class="info-label">Cara Menikmati</span>
+          <ul class="how-to-use-list">
+            ${product.howToUse && product.howToUse.length 
+              ? product.howToUse.map(step => `<li>${step}</li>`).join('')
+              : '<li>—</li>'
+            }
+          </ul>
+        </div>
 
-  <div class="info-section price-section">
-    <span class="info-label">Harga</span>
-    <div class="price-large">${formatRupiah(product.price)}</div>
-  </div>
-</div>
+        <!-- Komposisi (DIUBAH dari string ke list) -->
+        <div class="info-section">
+          <span class="info-label">Komposisi</span>
+          <ul class="composition-list">
+            ${product.composition && Array.isArray(product.composition)
+              ? product.composition.map(ing => `<li>${ing}</li>`).join('')
+              : '<li>${product.composition || '—'}</li>'
+            }
+          </ul>
+        </div>
+
+        <!-- Harga -->
+        <div class="info-section price-section">
+          <span class="info-label">Harga</span>
+          <div class="price-large">${formatRupiah(product.price)}</div>
+        </div>
+      </div>
+    </div>
     
     <div class="btn-group">
-  <button class="btn btn-primary" id="addToCartBtn" data-id="${product.id}">
-    ➕ Tambah ke Keranjang
-  </button>
-  <a href="https://wa.me/6282241900467?text=Saya%20mau%20pesan%20${encodeURIComponent(product.name)}%2C%20harga%20${encodeURIComponent(formatRupiah(product.price))}." 
-     target="_blank" class="btn btn-whatsapp">
-    📲 Langsung ke WhatsApp
-  </a>
-</div>
+      <button class="btn btn-primary" id="addToCartBtn" data-id="${product.id}">
+        ➕ Tambah ke Keranjang
+      </button>
+      <a href="https://wa.me/6282241900467?text=Saya%20mau%20pesan%20${encodeURIComponent(product.name)}%2C%20harga%20${encodeURIComponent(formatRupiah(product.price))}." 
+         target="_blank" class="btn btn-whatsapp">
+        📲 Langsung ke WhatsApp
+      </a>
+    </div>
   `;
 
   productModal.style.display = 'block';
