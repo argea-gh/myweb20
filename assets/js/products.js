@@ -1,195 +1,43 @@
 // Data produk — sesuai data yang Anda berikan
 const products = [
   {
-    id: "madu-pahit",
-    name: "Madu Pahit",
-    category: "Madu Premium",
-    price: 120000,
-    image: "assets/images/products/madu_pahit.webp",
-    description: "Madu herbal pahit premium dari lebah hutan, kaya enzim & antioksidan.",
-    benefits: ["Menjaga daya tahan tubuh", "Membantu metabolisme", "Mendukung kesehatan hati"],
-    composition: "100% Madu murni dari nektar bunga hutan"
-  },
-  {
-    id: "centella-teh",
-    name: "Centella Teh Sinergi",
-    category: "Minuman Sehat",
-    price: 70000,
-    image: "assets/images/products/centella_teh.webp",
-    description: "Teh herbal Centella asiatica (daun kaki kuda) untuk relaksasi & sirkulasi darah.",
-    benefits: ["Meningkatkan sirkulasi", "Meredakan stres", "Membantu kesegaran mental"],
-    composition: "Ekstrak Centella asiatica, daun teh hijau, stevia"
-  },
-  {
-    id: "deep-olive",
-    name: "Deep Olive",
-    category: "Minyak Herba",
-    price: 145000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/deep_olive.png",
-    description: "Minyak zaitun extra virgin dengan campuran herbal sinergi untuk pijat & perawatan.",
-    benefits: ["Mengurangi nyeri otot", "Melembutkan kulit", "Membantu relaksasi"],
-    composition: "Olive oil, ekstrak jahe, serai, kayu putih, minyak bijan"
-  },
-  {
-    id: "etta-goat",
-    name: "Etta Goat Milk",
-    category: "Minuman Sehat",
-    price: 75000,
-    image: "assets/images/products/etta_goatmilk.webp",
-    description: "Susu kambing etawa bubuk, tinggi kalsium & protein, mudah dicerna.",
-    benefits: ["Memperkuat tulang", "Meningkatkan imunitas", "Cocok untuk lansia & anak"],
-    composition: "Susu kambing etawa bubuk, madu, kurma"
-  },
-  {
-    id: "madu-multiflora",
-    name: "Madu Multiflora",
-    category: "Madu Premium",
-    price: 100000,
-    image: "assets/images/products/madu_multiflora.webp",
-    description: "Madu campur nektar berbagai bunga alami, rasa manis seimbang & kaya nutrisi.",
-    benefits: ["Sumber energi alami", "Membantu pencernaan", "Menjaga kesehatan saluran napas"],
-    composition: "100% madu multiflora murni"
-  },
-  {
-    id: "madu-habbat",
-    name: "Madu Habbat",
-    category: "Madu Premium",
-    price: 130000,
-    image: "assets/images/products/madu_habbat.webp",
-    description: "Madu premium dengan ekstrak habbatussauda (jinten hitam) untuk imunitas ekstra.",
-    benefits: ["Meningkatkan daya tahan", "Anti-inflamasi alami", "Membantu kesehatan pernapasan"],
-    composition: "Madu multiflora, ekstrak habbatussauda, minyak habbatussauda"
-  },
-  {
-    id: "hni-coffee",
-    name: "HNI Coffee",
-    category: "Minuman Sehat",
-    price: 125000,
-    image: "assets/images/products/coffee_hni.webp",
-    description: "Kopi herbal dengan madu & ginseng, tanpa gula tambahan.",
-    benefits: ["Meningkatkan fokus", "Tanpa efek jantung berdebar", "Tanpa gula"],
-    composition: "Kopi robusta, madu, ekstrak ginseng, jahe"
-  },
-  {
-    id: "hania-fc",
-    name: "Hania Susu Kambing Full Cream",
-    category: "Minuman Sehat",
-    price: 75000,
-    image: "assets/images/products/hania_goatmilk.webp",
-    description: "Susu kambing full cream, tinggi lemak sehat & kalsium.",
-    benefits: ["Meningkatkan berat badan sehat", "Memperkuat gigi & tulang", "Cocok untuk pemulihan"],
-    composition: "Susu kambing full cream, madu"
-  },
-  {
     id: "sevel-stamina",
     name: "Sevel Stamina",
     category: "Minuman Sehat",
     price: 115000,
     image: "assets/images/products/sevel-stamina-20.webp",
     description: "Sevel Stamina adalah minuman herbal siap seduh yang membantu memelihara stamina harian secara alami. Diracik dari 15 bahan pilihan Nusantara seperti pasak bumi dan jahe merah, ia hadir sebagai solusi lembut untuk tubuh yang mudah lelah. Rasakan energi stabil tanpa efek samping — dari pagi penuh semangat hingga sore yang tetap bertenaga. Vitalitas alami, dalam secangkir hangat.",
-    benefits: ["Bangun pagi dengan semangat, bukan keterpaksaan", "Menyelesaikan hari tanpa rasa kelelahan di sore hari", "Menjaga performa fisik & mental di tengah rutinitas padat", "Merawat stamina jangka panjang"],
-    composition: "Pasak bumi, buah manggis, jintan hitam, jahe merah, kayu angin, bunga krisan, daun kelor, daun sendok, buah mengkudu, daun stevia, garam calsium, gula kelapa, serbuk kopi, gula aren, krimer."
-  },
-  {
-    id: "cappucino-less",
-    name: "Hania Cappuccino Less Sugar",
-    category: "Minuman Sehat",
-    price: 50000,
-    image: "assets/images/products/hania_realco.webp",
-    description: "Cappuccino rendah gula dengan susu kambing & madu.",
-    benefits: ["Rendah gula", "Rasa nikmat tanpa bersalah", "Cocok untuk diet"],
-    composition: "Kopi, susu kambing, madu, stevia"
-  },
-  {
-    id: "madu-health",
-    name: "Madu HNI Health",
-    category: "Madu Premium",
-    price: 80000,
-    image: "assets/images/products/madu_hni_health.webp",
-    description: "Madu harian keluarga, diformulasi khusus untuk kesehatan menyeluruh.",
-    benefits: ["Pemeliharaan kesehatan harian", "Aman untuk anak & dewasa", "Rasa manis alami"],
-    composition: "Madu multiflora, propolis, royal jelly"
-  },
-  {
-    id: "gluta-juicy",
-    name: "Hania Gluta Juicy Drink",
-    category: "Minuman Sehat",
-    price: 185000,
-    image: "assets/images/products/hania_gluta.webp",
-    description: "Minuman glutation untuk kulit cerah & antioksidan tinggi.",
-    benefits: ["Mencerahkan kulit", "Anti penuaan", "Detoks alami"],
-    composition: "Glutation, vitamin C, ekstrak delima, madu"
-  },
-  {
-    id: "mahkota-dara",
-    name: "Mahkota Dara",
-    category: "Aneka Herbal",
-    price: 200000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/mahkota_dara.png",
-    description: "Herbal khusus wanita untuk kesegaran & kesehatan reproduksi.",
-    benefits: ["Menjaga kesehatan organ kewanitaan", "Mengurangi keputihan", "Menyeimbangkan hormon"],
-    composition: "Ekstrak daun sirih, kunyit, temu lawak, mahkota dewa"
-  },
-  {
-    id: "habbats-kapsul",
-    name: "Habbatusauda Kapsul",
-    category: "Aneka Herbal",
-    price: 60000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/habbatussauda.png",
-    description: "Kapsul habbatussauda 100% murni, untuk imunitas & kesehatan jantung.",
-    benefits: ["Meningkatkan imunitas", "Menurunkan kolesterol", "Anti radang"],
-    composition: "100% minyak habbatussauda murni"
-  },
-  {
-    id: "mhs-hot",
-    name: "Minyak Herba Sinergi Hot",
-    category: "Minyak Herba",
-    price: 55000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/minyak_herba_hot.png",
-    description: "Minyak gosok hangat untuk nyeri otot, pegal, dan masuk angin.",
-    benefits: ["Menghangatkan tubuh", "Mengurangi nyeri sendi", "Meredakan masuk angin"],
-    composition: "Minyak kelapa, jahe, serai, kayu putih, cengkeh"
-  },
-  {
-    id: "zareen-serum",
-    name: "Zareen Bright Glow Serum",
-    category: "Perawatan Kulit",
-    price: 70000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/zareen_serum.png",
-    description: "Serum wajah herbal untuk mencerahkan & melembabkan kulit.",
-    benefits: ["Mencerahkan kulit", "Mengurangi noda", "Melembabkan alami"],
-    composition: "Ekstrak licorice, niacinamide alami, aloe vera, madu"
-  },
-  {
-    id: "sabun-kolagen",
-    name: "Sabun Kolagen",
-    category: "Perawatan Kulit",
-    price: 25000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/sabun_kolagen.png",
-    description: "Sabun herbal dengan kolagen alami untuk kekenyalan kulit.",
-    benefits: ["Mengencangkan kulit", "Mengurangi keriput", "Mengangkat kotoran"],
-    composition: "Kolagen ikan, susu kambing, ekstrak chamomile"
-  },
-  {
-    id: "hibis-panty",
-    name: "Hibis Pantyliner",
-    category: "Perawatan Pribadi",
-    price: 225000,
-    image: "https://argea-gh.github.io/myweb16/assets/images/products/hibis_panty.png",
-    description: "Pantyliner herbal dengan ekstrak daun sirih & chamomile.",
-    benefits: ["Menjaga kesegaran", "Anti bakteri alami", "Aman untuk sensitif"],
-    composition: "Kapas organik, ekstrak daun sirih, chamomile, tea tree oil"
-  },
-    {
-    id: "zidavit",
-    name: "Madu Zidavit",
-    category: "madu Premium",
-    price: 80000,
-    image: "assets/images/products/madu_zidavit.webp",
-    description: "Suplemen multivitamin alami berbentuk cairan oral yang diformulasikan khusus untuk mendukung masa keemasan (golden age) pertumbuhan anak. Produk ini mengombinasikan kebaikan madu murni dengan ekstrak herbal pilihan serta minyak ikan sidat untuk memberikan nutrisi lengkap bagi tubuh dan otak anak. Dengan rasa jeruk yang segar, Zidavit menjadi solusi praktis bagi orang tua untuk memastikan buah hati tetap sehat dan cerdas.",
-    benefits: ["Menjaga kesegaran", "Anti bakteri alami", "Aman untuk sensitif"],
-    composition: "Kapas organik, ekstrak daun sirih, chamomile, tea tree oil"
+    benefits: [
+      "Bangun pagi dengan semangat, bukan keterpaksaan",
+      "Menyelesaikan hari tanpa rasa kelelahan di sore hari",
+      "Menjaga performa fisik & mental di tengah rutinitas padat",
+      "Merawat stamina jangka panjang"
+    ],
+    howToUse: [
+      "Seduh 1 sachet dengan 150ml air hangat",
+      "Aduk hingga rata dan larut sempurna",
+      "Nikmati hangat di pagi hari atau saat butuh energi",
+      "Dapat dikonsumsi 1-2 kali sehari sesuai kebutuhan"
+    ],
+    composition: [
+      "Pasak Bumi",
+      "Buah Manggis",
+      "Jintan Hitam",
+      "Jahe Merah",
+      "Kayu Angin",
+      "Bunga Krisan",
+      "Daun Kelor",
+      "Daun Sendok",
+      "Buah Mengkudu",
+      "Daun Stevia",
+      "Garam Kalsium",
+      "Gula Kelapa",
+      "Serbuk Kopi",
+      "Gula Aren",
+      "Krimer"
+    ]
   }
+  // ... produk lainnya
 ];
 
 // Ekspor untuk main.js
