@@ -1520,6 +1520,15 @@ body {
   margin: 8px 0 0;
 }
 
+/* ────────────────────────────────────────── */
+/* MODAL DETAIL PRODUK — ISI KEMASAN */
+/* ────────────────────────────────────────── */
+
+.info-section .product-name {
+  margin: 8px 0 0;
+  font-size: 1.2rem; /* Sesuaikan ukuran jika perlu */
+}
+
 /* MODAL DETAIL PRODUK UNGGULAN */
 .product-img {
   cursor: pointer;
