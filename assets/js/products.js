@@ -20,21 +20,15 @@ const products = [
       "Dapat dikonsumsi 1-2 kali sehari sesuai kebutuhan"
     ],
     composition: [
-      "Pasak Bumi",
-      "Buah Manggis",
-      "Jintan Hitam",
-      "Jahe Merah",
-      "Kayu Angin",
-      "Bunga Krisan",
-      "Daun Kelor",
-      "Daun Sendok",
-      "Buah Mengkudu",
-      "Daun Stevia",
-      "Garam Kalsium",
-      "Gula Kelapa",
-      "Serbuk Kopi",
-      "Gula Aren",
-      "Krimer"
+      "Pasak Bumi: Membantu menjaga vitalitas alami tubuh",
+      "Serbuk Kopi: Memberikan stimulasi lembut tanpa bikin gelisah",
+      "Jahe Merah & Kayu Angin: Menghangatkan badan, melancarkan sirkulasi darah",
+      "Buah Manggis & Mengkudu: Kaya antioksidan untuk pertahanan tubuh",
+      "Jintan Hitam & Daun Kelor: Nutrisi lengkap penunjang stamina harian",
+      "Daun Sendok & Bunga Krisan: Membantu menjaga keseimbangan metabolisme",
+      "Daun Stevia: Pemanis alami tanpa gula berlebih",
+      "Gula Kelapa & Aren: Sumber energi alami yang mudah diserap tubuh",
+      "Krimer & Garam Kalsium: Tekstur lembut dan kandungan mineral penunjang"
     ]
   }
   // ... produk lainnya
