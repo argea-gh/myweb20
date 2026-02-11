@@ -63,6 +63,40 @@ const products = [
       "Gula Kelapa & Aren: Sumber energi alami yang mudah diserap tubuh",
       "Krimer & Garam Kalsium: Tekstur lembut dan kandungan mineral penunjang"
     ]
+  },
+    {
+    id: "sevel-premium",
+    name: "Sevel Premium",
+    category: "Minuman Sehat",
+    price: 80000,
+    packageContent: "10 sachet @ 21gr",
+    image: "assets/images/products/sevel-premium.webp",
+    description: "Kopi 7 Elemen Premium atau Sevel Premium adalah harmoni sempurna dari tujuh bagian alam — biji, akar, batang, kulit, daun, bunga, dan buah — yang disatukan dalam secangkir kehangatan. Bayangkan secangkir kopi yang tidak hanya membangunkan tubuh, tapi juga menyembuhkan dari dalam. Diperkaya dengan Qusthul Hindi, rempah langka penjaga napas lega, menjadikannya lebih dari sekadar kopi: ini adalah ritual harian untuk tubuh yang bugar dan jiwa yang tenang.",
+    benefits: [
+      "Stamina tahan lama tanpa jantung berdebar, energi alami dari herbal pilihan",
+      "Napas lega & ringan, Qusthul Hindi membantu meredakan sesak, batuk, dan asma ringan",
+      "Pertahanan tubuh kuat, antioksidan tinggi dari manggis & herbal sinergis",
+      "Lambung tetap nyaman, tanpa iritasi, aman diminum pagi hari sebelum sarapan",
+      "Tidur lebih nyenyak, herbal adaptogen membantu menyeimbangkan ritme tubuh"
+    ],
+    howToUse: [
+      "Seduh 1 sachet dengan 150ml air hangat",
+      "Aduk hingga rata dan larut sempurna",
+      "Nikmati hangat di pagi hari atau saat butuh energi",
+      "Dapat dikonsumsi 1-2 kali sehari sesuai kebutuhan"
+      "Aman untuk dikonsumsi rutin"
+    ],
+    composition: [
+      "Kopi Robusta pilihan",
+      "Krimer nabati (tanpa lemak hewani)",
+      "Gula aren organik",
+      "Qusthul Hindi (batang), penjaga saluran napas",
+      "Pasak bumi (akar), penambah stamina alami",
+      "Kulit manggis, sumber xanthone antioksidan",
+      "Daun Stevia: Pemanis alami tanpa gula berlebih",
+      "Jahe merah, kayu angin, bunga krisan, daun kelor",
+      "Tanpa pengawet, tanpa pemanis buatan"
+    ]
   }
   // ... produk lainnya
 ];
