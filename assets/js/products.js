@@ -5,6 +5,7 @@ const products = [
     name: "Sevel Stamina - 20 sachet",
     category: "Minuman Sehat",
     price: 115000,
+    packageContent: "20 sachet @ 20gr",
     image: "assets/images/products/sevel-stamina.webp",
     description: "Sevel Stamina adalah minuman herbal siap seduh yang membantu memelihara stamina harian secara alami. Diracik dari 15 bahan pilihan Nusantara seperti pasak bumi dan jahe merah, ia hadir sebagai solusi lembut untuk tubuh yang mudah lelah. Rasakan energi stabil tanpa efek samping — dari pagi penuh semangat hingga sore yang tetap bertenaga. Vitalitas alami, dalam secangkir hangat.",
     benefits: [
@@ -36,6 +37,7 @@ const products = [
     name: "Sevel Stamina - 10 sachet ",
     category: "Minuman Sehat",
     price: 65000,
+    packageContent: "10 sachet @ 20gr",
     image: "assets/images/products/sevel-stamina-10.webp",
     description: "Sevel Stamina adalah minuman herbal siap seduh yang membantu memelihara stamina harian secara alami. Diracik dari 15 bahan pilihan Nusantara seperti pasak bumi dan jahe merah, ia hadir sebagai solusi lembut untuk tubuh yang mudah lelah. Rasakan energi stabil tanpa efek samping — dari pagi penuh semangat hingga sore yang tetap bertenaga. Vitalitas alami, dalam secangkir hangat.",
     benefits: [
