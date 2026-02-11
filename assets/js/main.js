@@ -393,15 +393,22 @@ function updateCartDisplay(cart) {
       btn.href = '#';
     }
   };
-
-  // Update semua tombol checkout
+  // Update semua tombol checkout dengan format lengkap
   updateCheckoutButton(checkoutBtn, cart.map(item => 
-    `• ${item.name} (${formatRupiah(item.price)} × ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
+  `• ${item.name} (${formatRupiah(item.price)} x ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
   ).join('\n'));
-  
+
   updateCheckoutButton(document.getElementById('checkoutBtnSticky'), cart.map(item => 
-    `• ${item.name} = ${formatRupiah(item.price * item.quantity)}`
+  `• ${item.name} (${formatRupiah(item.price)} x ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
   ).join('\n'));
+  // Update semua tombol checkout
+  // updateCheckoutButton(checkoutBtn, cart.map(item => 
+  // `• ${item.name} (${formatRupiah(item.price)} × ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
+  // ).join('\n'));
+  
+  // updateCheckoutButton(document.getElementById('checkoutBtnSticky'), cart.map(item => 
+  // `• ${item.name} = ${formatRupiah(item.price * item.quantity)}`
+  // ).join('\n'));
 }
 
 // ──────────────────────────────────────────
