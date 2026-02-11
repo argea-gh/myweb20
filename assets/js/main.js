@@ -402,7 +402,6 @@ updateCheckoutButton(checkoutBtn, cart.map(item =>
 updateCheckoutButton(document.getElementById('checkoutBtnSticky'), cart.map(item => 
   `• ${item.name} (${formatRupiah(item.price)} x ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
 ).join('\n'));
-
 // ──────────────────────────────────────────
 // Cart Panel Toggles
 // ──────────────────────────────────────────
