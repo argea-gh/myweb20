@@ -199,6 +199,12 @@ function openProductModal(product) {
     html += '<li>' + (product.composition || '—') + '</li>';
   }
   html += '</ul></div>';
+
+  // ✨ Isi Kemasan (BARU) — di atas Harga
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Isi Kemasan</span>';
+  html += '<p class="product-name">' + (product.packageContent || '—') + '</p>';
+  html += '</div>';
   
   // Harga
   html += '<div class="info-section price-section">';
