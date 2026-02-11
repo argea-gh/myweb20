@@ -383,25 +383,27 @@ function updateCartDisplay(cart) {
     badge.classList.toggle('show', totalCount > 0);
   }
 
-// ✅ Update tombol checkout (versi lengkap dengan harga satuan)
-const updateCheckoutButton = (btn, itemsList) => {
-  if (!btn) return;
-  if (cart.length > 0) {
-    const text = `Halo Herbaprima, saya mau pesan:\n${itemsList}\n\nTotal: ${totalFormatted}`;
-    btn.href = `https://wa.me/6282241900467?text=${encodeURIComponent(text)}`;
-  } else {
-    btn.href = '#';
-  }
-};
+  // ✅ Update tombol checkout (versi ringkas)
+  const updateCheckoutButton = (btn, itemsList) => {
+    if (!btn) return;
+    if (cart.length > 0) {
+      const text = `Halo Herbaprima, saya mau pesan:\n${itemsList}\n\nTotal: ${totalFormatted}`;
+      btn.href = `https://wa.me/6282241900467?text=${encodeURIComponent(text)}`;
+    } else {
+      btn.href = '#';
+    }
+  };
 
-// Update semua tombol checkout dengan format lengkap
-updateCheckoutButton(checkoutBtn, cart.map(item => 
-  `• ${item.name} (${formatRupiah(item.price)} x ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
-).join('\n'));
+  // Update semua tombol checkout
+  updateCheckoutButton(checkoutBtn, cart.map(item => 
+    `• ${item.name} (${formatRupiah(item.price)} × ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
+  ).join('\n'));
+  
+  updateCheckoutButton(document.getElementById('checkoutBtnSticky'), cart.map(item => 
+    `• ${item.name} = ${formatRupiah(item.price * item.quantity)}`
+  ).join('\n'));
+}
 
-updateCheckoutButton(document.getElementById('checkoutBtnSticky'), cart.map(item => 
-  `• ${item.name} (${formatRupiah(item.price)} x ${item.quantity}) = ${formatRupiah(item.price * item.quantity)}`
-).join('\n'));
 // ──────────────────────────────────────────
 // Cart Panel Toggles
 // ──────────────────────────────────────────
@@ -432,6 +434,7 @@ filterBtns.forEach(btn => {
     renderProducts(btn.dataset.category);
   });
 });
+
 // ──────────────────────────────────────────
 // Smooth Scroll for Anchor Links
 // ──────────────────────────────────────────
