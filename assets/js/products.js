@@ -83,7 +83,7 @@ const products = [
       "Seduh 1 sachet dengan 150ml air hangat",
       "Aduk hingga rata dan larut sempurna",
       "Nikmati hangat di pagi hari atau saat butuh energi",
-      "Dapat dikonsumsi 1-2 kali sehari sesuai kebutuhan"
+      "Dapat dikonsumsi 1-2 kali sehari sesuai kebutuhan",
       "Aman untuk dikonsumsi rutin"
     ],
     composition: [
