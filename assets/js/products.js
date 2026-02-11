@@ -97,6 +97,64 @@ const products = [
       "Jahe merah, kayu angin, bunga krisan, daun kelor",
       "Tanpa pengawet, tanpa pemanis buatan"
     ]
+  },
+    {
+    id: "teh-adeni",
+    name: "Teh Susu Rempah Adeni",
+    category: "Minuman Sehat",
+    price: 75000,
+    packageContent: "10 sachet @ 18gr",
+    image: "assets/images/products/teh-susu_adeni.webp",
+    description: "Teh Susu Rempah Adeni adalah minuman hangat perpaduan teh, susu, dan rempah pilihan yang membantu menghangatkan tubuh secara alami. Diracik dari kayu manis, jahe, dan kapulaga, ia menjadi teman setia di pagi dingin atau malam yang melelahkan. Rasakan kehangatan yang menenangkan tenggorokan sekaligus meningkatkan daya tahan tubuh. Kenikmatan tradisional dalam setiap teguknya.",
+    benefits: [
+    "Menghangatkan tubuh secara alami saat cuaca dingin",
+    "Meredakan rasa tidak nyaman di tenggorokan",
+    "Membantu meningkatkan daya tahan tubuh harian",
+    "Memberikan relaksasi alami setelah aktivitas padat"
+    ],
+    howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (80-90°C)",
+    "Aduk hingga larut sempurna dan susu tercampur rata",
+    "Nikmati hangat di pagi hari atau saat tubuh terasa kedinginan",
+    "Dapat dinikmati tanpa tambahan gula karena sudah pas manisnya"
+    ],
+    composition: [
+    "Kayu Manis – Menghangatkan tubuh & melancarkan sirkulasi darah",
+    "Kapulaga – Meredakan batuk & menyegarkan saluran napas",
+    "Jahe – Menghangatkan & meningkatkan daya tahan tubuh",
+    "Lada Hitam – Melancarkan pernapasan & anti-inflamasi alami",
+    "Cengkeh – Antibakteri & meredakan iritasi tenggorokan"
+    ]
+  },
+    {
+    id: "jannatee-cool",
+    name: "Teh Jannatee Cool",
+    category: "Minuman Sehat",
+    price: 85000,
+    packageContent: "20 kantong @ 2,5 gram",
+    image: "assets/images/products/teh_jannatee_cool.webp",
+    description: "Teh Jannatee Cool adalah minuman herbal penyejuk jiwa yang membantu menenangkan pikiran dan meredakan stres harian. Perpaduan daun mint, habbatussauda, dan zaitun menciptakan sensasi segar yang menyeimbangkan tubuh dan pikiran. Cocok dinikmati saat butuh ketenangan atau sebagai teman meditasi dan istirahat. Kesegaran alami untuk jiwa yang lebih damai.",
+    benefits: [
+    "Menenangkan pikiran dan meredakan stres harian",
+    "Memberikan sensasi segar yang menyegarkan jiwa",
+    "Membantu menjaga keseimbangan tubuh dan pikiran",
+    "Mendukung relaksasi alami setelah aktivitas padat"
+    ],
+    howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (80-90°C)",
+    "Diamkan 3-5 menit agar ekstrak herbal larut sempurna",
+    "Nikmati hangat atau dinginkan untuk sensasi lebih segar",
+    "Konsumsi 1-2 kali sehari, terutama saat butuh ketenangan"
+    ],
+    composition: [
+    "Daun Mint – Menenangkan & memberikan sensasi segar",
+    "Daun Bidara – Menyejukkan jiwa & pikiran",
+    "Kayu Manis – Menghangatkan & melancarkan sirkulasi",
+    "Kapulaga – Menjaga kesehatan pencernaan",
+    "Daun Tin – Kaya nutrisi & antioksidan",
+    "Habbatussauda – Meningkatkan daya tahan tubuh",
+    "Daun Zaitun – Antioksidan tinggi & kesehatan jantung"
+    ]
   }
   // ... produk lainnya
 ];
