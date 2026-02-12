@@ -156,6 +156,63 @@ const products = [
     "Daun Zaitun – Antioksidan tinggi & kesehatan jantung"
     ]
   }
+
+  {
+  id: "teh-jannatee-hot",
+  name: "Teh Jannatee Hot",
+  category: "Minuman Sehat",
+  price: 85000,
+  packageContent: "20 kantong @ 2,5 gr",
+  image: "assets/images/products/teh_jannatee_hot.webp",
+  description: "Teh Jannatee Hot adalah minuman herbal penghangat alami yang membantu menjaga stamina tubuh di cuaca dingin. Diracik dari cabai jawa, cengkih, dan kayu angin, ia memberikan kehangatan yang menenangkan sekaligus meningkatkan sirkulasi darah. Rasakan sensasi hangat yang merambat ke seluruh tubuh tanpa rasa terbakar berlebihan. Kekuatan rempah Nusantara dalam secangkir ketenangan.",
+  benefits: [
+    "Menghangatkan tubuh secara alami saat cuaca dingin",
+    "Meningkatkan sirkulasi darah dan menjaga stamina",
+    "Meredakan rasa tidak nyaman akibat kedinginan",
+    "Memberikan sensasi hangat yang menenangkan tanpa efek samping"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (90-100°C)",
+    "Diamkan 3-5 menit hingga warna teh berubah kecokelatan",
+    "Nikmati hangat saat pagi hari atau saat tubuh terasa kedinginan",
+    "Dapat dikonsumsi 1-2 kali sehari untuk menjaga kehangatan tubuh"
+  ],
+  composition: [
+    "Biji Kedawung – Menghangatkan tubuh & menjaga stamina",
+    "Cabai Jawa – Meningkatkan sirkulasi darah & kehangatan alami",
+    "Cengkih – Antibakteri & meredakan rasa tidak nyaman",
+    "Kayu Angin – Menghangatkan & melancarkan pernapasan",
+    "Adas – Menenangkan pencernaan & aroma yang menenangkan"
+  ]
+},
+
+{
+  id: "teh-centella",
+  name: "Centella Teh Sinergi",
+  category: "Minuman Sehat",
+  price: 70000,
+  packageContent: "24 kantong @ 2 gr",
+  image: "assets/images/products/centella_teh.webp",
+  description: "Centella Teh Sinergi adalah perpaduan harmonis pegagan, teh hijau, dan rempah pilihan yang membantu menjaga kesehatan kulit dan metabolisme tubuh. Formulasi sinergis ini bekerja menyeluruh untuk mendukung detoks alami dan kebugaran harian. Rasakan kesegaran teh hijau yang dipadu kebaikan pegagan untuk kulit yang lebih cerah dan tubuh yang ringan. Kesehatan menyeluruh dalam secangkir kebiasaan baru.",
+  benefits: [
+    "Mendukung kesehatan kulit dari dalam untuk tampilan lebih cerah",
+    "Membantu menjaga metabolisme tubuh dan proses detoks alami",
+    "Memberikan energi ringan tanpa efek gelisah berlebihan",
+    "Mendukung pencernaan sehat berkat kombinasi herbal sinergis"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (80-85°C)",
+    "Diamkan 2-3 menit hingga ekstrak herbal larut sempurna",
+    "Nikmati hangat di pagi hari sebagai ritual kesehatan harian",
+    "Konsumsi 1-2 kali sehari untuk hasil optimal dalam 2-4 minggu"
+  ],
+  composition: [
+    "Pegagan (Centella) – Menyehatkan kulit & mendukung sirkulasi darah",
+    "Teh Hijau – Kaya antioksidan & membantu metabolisme",
+    "Jati Belanda – Mendukung detoks alami & keseimbangan berat badan",
+    "Jahe Merah – Menghangatkan tubuh & melancarkan pencernaan"
+  ]
+}
   // ... produk lainnya
 ];
 
