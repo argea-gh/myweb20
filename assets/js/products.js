@@ -155,7 +155,7 @@ const products = [
     "Habbatussauda – Meningkatkan daya tahan tubuh",
     "Daun Zaitun – Antioksidan tinggi & kesehatan jantung"
     ]
-  }
+  },
 
   {
   id: "teh-jannatee-hot",
