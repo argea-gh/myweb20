@@ -212,6 +212,116 @@ const products = [
     "Jati Belanda – Mendukung detoks alami & keseimbangan berat badan",
     "Jahe Merah – Menghangatkan tubuh & melancarkan pencernaan"
   ]
+},
+
+{
+  id: "matcha-latte",
+  name: "Matcha Latte",
+  category: "Minuman Sehat",
+  price: 65000,
+  packageContent: "10 sachet @29 gram",
+  image: "assets/images/products/hania_matcha_latte.webp",
+  description: "Matcha Latte adalah minuman serbuk teh hijau premium yang dipadukan dengan susu creamy untuk energi alami tanpa rasa gelisah. Kaya antioksidan dan L-theanine, membantu meningkatkan fokus sekaligus menenangkan pikiran. Rasakan sensasi creamy yang lembut dengan aroma teh hijau yang khas. Kesegaran Jepang dalam setiap teguknya.",
+  benefits: [
+    "Memberikan energi stabil tanpa efek gelisah berlebihan",
+    "Kaya antioksidan untuk melawan radikal bebas",
+    "Meningkatkan fokus & konsentrasi berkat L-theanine",
+    "Mendukung metabolisme tubuh secara alami"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (80-85°C)",
+    "Aduk hingga larut sempurna dan berwarna hijau kehijauan",
+    "Nikmati hangat di pagi hari atau saat butuh boost energi",
+    "Dapat disajikan dingin dengan es batu untuk sensasi lebih segar"
+  ],
+  composition: [
+    "Gula – Sumber energi cepat yang mudah diserap",
+    "Krimer – Memberikan tekstur creamy yang lembut",
+    "Susu Skim Bubuk – Kaya kalsium tanpa lemak berlebihan",
+    "Ekstrak Teh Hijau – Antioksidan tinggi & penambah energi alami"
+  ]
+},
+{
+  id: "hni-coffee",
+  name: "HNI Coffee",
+  category: "Minuman Sehat",
+  price: 125000,
+  packageContent: "20 sachet @27 gram",
+  image: "assets/images/products/coffee_hni.webp",
+  description: "HNI Coffee adalah kopi premium yang diperkaya habbatusauda dan susu kambing untuk energi yang menyehatkan. Perpaduan kopi instan berkualitas dengan madu serbuk menciptakan rasa yang kaya dan aroma yang menggoda. Diformulasikan khusus untuk memberikan stamina alami tanpa efek samping berlebihan. Kopi sehat untuk menemani hari produktif Anda.",
+  benefits: [
+    "Memberikan energi alami untuk aktivitas sepanjang hari",
+    "Habbatusauda mendukung kesehatan tubuh secara menyeluruh",
+    "Susu kambing kaya nutrisi dan mudah dicerna",
+    "Madu serbuk memberikan rasa manis alami tanpa gula berlebihan"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (90°C)",
+    "Aduk hingga larut sempurna dan beraroma harum",
+    "Nikmati hangat di pagi hari atau saat butuh tambahan energi",
+    "Dapat dikonsumsi 1-2 kali sehari sesuai kebutuhan"
+  ],
+  composition: [
+    "Krimer Nabati – Memberikan tekstur creamy yang lembut",
+    "Gula – Sumber energi cepat",
+    "Kopi Instan – Memberikan aroma & cita rasa kopi khas",
+    "Ekstrak Habbatusauda – Mendukung kesehatan tubuh alami",
+    "Madu Serbuk – Pemanis alami dengan nutrisi tambahan",
+    "Susu Kambing – Kaya nutrisi & mudah dicerna",
+    "Coklat – Memberikan rasa yang kaya & aroma menggoda"
+  ]
+},
+{
+  id: "realco-cappuccino",
+  name: "Hania Realco Cappuccino Less Sugar",
+  category: "Minuman Sehat",
+  price: 50000,
+  packageContent: "10 sachet @22 gram",
+  image: "assets/images/products/hania_realco.webp",
+  description: "Hania Realco Cappuccino Less Sugar adalah minuman kopi premium dengan gula aren alami dan kolagen untuk kesehatan kulit. Diformulasikan dengan kadar gula rendah namun tetap nikmat, cocok untuk gaya hidup sehat modern. Rasakan kelezatan cappuccino yang creamy dengan manfaat ganda untuk tubuh dan kulit. Kenikmatan tanpa rasa bersalah.",
+  benefits: [
+    "Kolagen mendukung kesehatan kulit agar lebih kenyal & cerah",
+    "Gula aren alami memberikan energi stabil tanpa spike gula darah",
+    "Kadar gula rendah cocok untuk diet sehat & diabetesi ringan",
+    "Harga terjangkau tanpa kompromi pada kualitas rasa"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (85-90°C)",
+    "Aduk hingga larut sempurna dan berwarna cokelat creamy",
+    "Nikmati hangat di pagi hari atau sebagai teman santai",
+    "Dapat disajikan dengan susu tambahan untuk rasa lebih creamy"
+  ],
+  composition: [
+    "Kopi – Memberikan cita rasa kopi yang khas",
+    "Gula Aren – Pemanis alami dengan nutrisi tambahan",
+    "Kolagen – Mendukung kesehatan kulit & sendi",
+    "Krimer – Memberikan tekstur creamy yang lembut"
+  ]
+},
+{
+  id: "realco-premium",
+  name: "Hania Realco Black Coffee Premium Blend",
+  category: "Minuman Sehat",
+  price: 95000,
+  packageContent: "200 gram",
+  image: "assets/images/products/hania_realco_premium.webp",
+  description: "Hania Realco Black Coffee Premium Blend adalah kopi hitam 100% dari biji kopi pilihan perpaduan Arabica dan Robusta. Tanpa campuran bahan lain, memberikan cita rasa autentik yang kaya dan aroma yang menggoda. Diracik khusus untuk pecinta kopi murni yang menghargai keaslian rasa. Pengalaman kopi premium untuk para penikmat sejati.",
+  benefits: [
+    "100% biji kopi pilihan tanpa campuran bahan lain",
+    "Perpaduan Arabica & Robusta menciptakan cita rasa seimbang",
+    "Memberikan energi alami tanpa tambahan gula atau krimer",
+    "Aroma khas kopi hitam yang menggoda dan menyegarkan"
+  ],
+  howToUse: [
+    "Giling 1 sendok makan biji kopi (8g) hingga halus",
+    "Tuangkan ke dalam cangkir dan tambahkan 180ml air panas (90°C)",
+    "Aduk rata dan diamkan 4-5 menit hingga ekstrak kopi larut sempurna",
+    "Nikmati hangat tanpa gula atau tambahkan pemanis sesuai selera"
+  ],
+  composition: [
+    "100% Biji Kopi Arabica – Memberikan cita rasa halus & aroma floral",
+    "100% Biji Kopi Robusta – Memberikan kekuatan & body kopi yang khas"
+  ]
 }
   // ... produk lainnya
 ];
