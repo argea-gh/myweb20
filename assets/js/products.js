@@ -322,7 +322,32 @@ const products = [
     "100% Biji Kopi Arabica – Memberikan cita rasa halus & aroma floral",
     "100% Biji Kopi Robusta – Memberikan kekuatan & body kopi yang khas"
   ]
+},
+{
+  id: "realco-robusta",
+  name: "Hania Realco Black Coffee Fine Robusta",
+  category: "Minuman Sehat",
+  price: 50000,
+  packageContent: "10 sachet @10 gram",
+  image: "assets/images/products/hania_realco_robusta_.webp",
+  description: "Hania Realco Black Coffee Fine Robusta adalah kopi bubuk 100% dari biji Robusta pilihan yang memberikan cita rasa kuat dan energi maksimal. Dengan karakter khas Robusta yang bold dan aroma yang menggoda, kopi ini cocok untuk pecinta kopi hitam yang menyukai sensasi kuat di setiap teguknya. Tanpa campuran bahan lain, keaslian rasa terjaga sempurna. Kekuatan alami untuk memulai hari dengan semangat.",
+  benefits: [
+    "100% kopi bubuk Robusta tanpa campuran bahan lain",
+    "Memberikan energi maksimal untuk aktivitas padat",
+    "Cita rasa kuat dan bold khas kopi Robusta",
+    "Praktis dalam kemasan sachet siap seduh"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (90-95°C)",
+    "Aduk hingga larut sempurna dan beraroma harum",
+    "Nikmati hangat tanpa gula untuk cita rasa autentik",
+    "Dapat ditambahkan pemanis atau susu sesuai selera"
+  ],
+  composition: [
+    "100% Biji Kopi Robusta – Memberikan cita rasa kuat & energi maksimal"
+  ]
 }
+
   // ... produk lainnya
 ];
 
