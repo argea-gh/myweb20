@@ -1484,6 +1484,12 @@ body {
   counter-increment: step-counter;
 }
 
+/* Peringatan */
+.info-section .info-value[style*="ef4444"] {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .how-to-use-list li:before {
   content: counter(step-counter);
   position: absolute;
