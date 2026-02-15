@@ -354,7 +354,7 @@ const products = [
   category: "Minuman Sehat",
   price: 130000,
   packageContent: "20 sachet @ 22 gram",
-  image: "assets/images/products/realco-latte20.webp",
+  image: "assets/images/products/realco-latte-20.webp",
   description: "Hania Realco Latte adalah minuman kopi premium dengan gula aren alami dan kolagen untuk kesehatan kulit yang menyeluruh. Perpaduan sempurna antara cita rasa latte yang creamy dan manfaat ganda untuk tubuh. Rasakan kelezatan kopi yang lembut dengan sensasi hangat yang menenangkan. Kenikmatan premium untuk ritual harian Anda.",
   benefits: [
     "Kolagen mendukung kesehatan kulit agar lebih kenyal & cerah",
@@ -380,9 +380,9 @@ const products = [
   id: "realco-latte10",
   name: "Hania Realco Latte - 10 sachet",
   category: "Minuman Sehat",
-  price: 130000,
+  price: 65000,
   packageContent: "20 sachet @ 22 gram",
-  image: "assets/images/products/realco-latte10.webp",
+  image: "assets/images/products/realco-latte-10.webp",
   description: "Hania Realco Latte adalah minuman kopi premium dengan gula aren alami dan kolagen untuk kesehatan kulit yang menyeluruh. Perpaduan sempurna antara cita rasa latte yang creamy dan manfaat ganda untuk tubuh. Rasakan kelezatan kopi yang lembut dengan sensasi hangat yang menenangkan. Kenikmatan premium untuk ritual harian Anda.",
   benefits: [
     "Kolagen mendukung kesehatan kulit agar lebih kenyal & cerah",
