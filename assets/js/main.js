@@ -186,6 +186,14 @@ function openProductModal(product) {
     html += '<li>—</li>';
   }
   html += '</ul></div>';
+
+  // Peringatan
+  if (product.warning) {
+  html += '<div class="info-section">';
+  html += '<span class="info-label">Peringatan</span>';
+  html += '<p class="info-value" style="color: #ef4444; font-weight: 600;">' + product.warning + '</p>';
+  html += '</div>';
+}
   
   // Komposisi
   html += '<div class="info-section">';
