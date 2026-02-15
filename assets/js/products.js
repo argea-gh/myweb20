@@ -329,7 +329,7 @@ const products = [
   category: "Minuman Sehat",
   price: 50000,
   packageContent: "10 sachet @10 gram",
-  image: "assets/images/products/hania_realco_robusta_.webp",
+  image: "assets/images/products/hania_realco_robusta.webp",
   description: "Hania Realco Black Coffee Fine Robusta adalah kopi bubuk 100% dari biji Robusta pilihan yang memberikan cita rasa kuat dan energi maksimal. Dengan karakter khas Robusta yang bold dan aroma yang menggoda, kopi ini cocok untuk pecinta kopi hitam yang menyukai sensasi kuat di setiap teguknya. Tanpa campuran bahan lain, keaslian rasa terjaga sempurna. Kekuatan alami untuk memulai hari dengan semangat.",
   benefits: [
     "100% kopi bubuk Robusta tanpa campuran bahan lain",
@@ -349,12 +349,12 @@ const products = [
 },
 
   {
-  id: "realco-latte",
-  name: "Hania Realco Latte",
+  id: "realco-latte20",
+  name: "Hania Realco Latte - 20 sachet",
   category: "Minuman Sehat",
   price: 130000,
   packageContent: "20 sachet @ 22 gram",
-  image: "assets/images/products/hania_realco-latte.webp",
+  image: "assets/images/products/realco-latte20.webp",
   description: "Hania Realco Latte adalah minuman kopi premium dengan gula aren alami dan kolagen untuk kesehatan kulit yang menyeluruh. Perpaduan sempurna antara cita rasa latte yang creamy dan manfaat ganda untuk tubuh. Rasakan kelezatan kopi yang lembut dengan sensasi hangat yang menenangkan. Kenikmatan premium untuk ritual harian Anda.",
   benefits: [
     "Kolagen mendukung kesehatan kulit agar lebih kenyal & cerah",
@@ -376,6 +376,34 @@ const products = [
   ]
 },
 
+  {
+  id: "realco-latte10",
+  name: "Hania Realco Latte - 10 sachet",
+  category: "Minuman Sehat",
+  price: 130000,
+  packageContent: "20 sachet @ 22 gram",
+  image: "assets/images/products/realco-latte10.webp",
+  description: "Hania Realco Latte adalah minuman kopi premium dengan gula aren alami dan kolagen untuk kesehatan kulit yang menyeluruh. Perpaduan sempurna antara cita rasa latte yang creamy dan manfaat ganda untuk tubuh. Rasakan kelezatan kopi yang lembut dengan sensasi hangat yang menenangkan. Kenikmatan premium untuk ritual harian Anda.",
+  benefits: [
+    "Kolagen mendukung kesehatan kulit agar lebih kenyal & cerah",
+    "Gula aren alami memberikan energi stabil tanpa spike gula darah",
+    "Tekstur creamy yang lembut dan nikmat di setiap teguk",
+    "Cita rasa latte premium yang memanjakan lidah"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (85-90°C)",
+    "Aduk hingga larut sempurna dan berwarna cokelat creamy",
+    "Nikmati hangat di pagi hari atau sebagai teman santai",
+    "Dapat disajikan dengan es batu untuk sensasi lebih segar"
+  ],
+  composition: [
+    "Kopi – Memberikan cita rasa kopi yang khas",
+    "Gula Aren – Pemanis alami dengan nutrisi tambahan",
+    "Kolagen – Mendukung kesehatan kulit & sendi",
+    "Krimer – Memberikan tekstur creamy yang lembut"
+  ]
+},
+  
 {
   id: "realco-ginseng",
   name: "Hania Realco Ginseng Coffee",
