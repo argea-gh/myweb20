@@ -346,6 +346,128 @@ const products = [
   composition: [
     "100% Biji Kopi Robusta – Memberikan cita rasa kuat & energi maksimal"
   ]
+},
+
+  {
+  id: "realco-latte",
+  name: "Hania Realco Latte",
+  category: "Minuman Sehat",
+  price: 130000,
+  packageContent: "20 sachet @ 22 gram",
+  image: "assets/images/products/hania_realco-latte.webp",
+  description: "Hania Realco Latte adalah minuman kopi premium dengan gula aren alami dan kolagen untuk kesehatan kulit yang menyeluruh. Perpaduan sempurna antara cita rasa latte yang creamy dan manfaat ganda untuk tubuh. Rasakan kelezatan kopi yang lembut dengan sensasi hangat yang menenangkan. Kenikmatan premium untuk ritual harian Anda.",
+  benefits: [
+    "Kolagen mendukung kesehatan kulit agar lebih kenyal & cerah",
+    "Gula aren alami memberikan energi stabil tanpa spike gula darah",
+    "Tekstur creamy yang lembut dan nikmat di setiap teguk",
+    "Cita rasa latte premium yang memanjakan lidah"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (85-90°C)",
+    "Aduk hingga larut sempurna dan berwarna cokelat creamy",
+    "Nikmati hangat di pagi hari atau sebagai teman santai",
+    "Dapat disajikan dengan es batu untuk sensasi lebih segar"
+  ],
+  composition: [
+    "Kopi – Memberikan cita rasa kopi yang khas",
+    "Gula Aren – Pemanis alami dengan nutrisi tambahan",
+    "Kolagen – Mendukung kesehatan kulit & sendi",
+    "Krimer – Memberikan tekstur creamy yang lembut"
+  ]
+},
+
+{
+  id: "realco-ginseng",
+  name: "Hania Realco Ginseng Coffee",
+  category: "Minuman Sehat",
+  price: 65000,
+  packageContent: "10 sachet @ 23 gram",
+  image: "assets/images/products/realco-ginseng_coffee.webp",
+  description: "Hania Realco Ginseng Coffee adalah kopi premium yang diperkaya ekstrak ginseng untuk stamina dan vitalitas tubuh secara alami. Kombinasi gula aren, kolagen, dan ginseng menciptakan formula sinergis untuk energi tahan lama tanpa efek samping. Rasakan sensasi hangat yang merambat ke seluruh tubuh dengan cita rasa kopi yang kaya. Stamina alami untuk hari yang lebih produktif.",
+  benefits: [
+    "Ekstrak ginseng membantu menjaga stamina & vitalitas alami",
+    "Kolagen mendukung kesehatan kulit dari dalam",
+    "Gula aren memberikan energi stabil tanpa ketergantungan",
+    "Formula sinergis untuk energi tahan lama sepanjang hari"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air panas (90°C)",
+    "Aduk hingga larut sempurna dan beraroma harum",
+    "Nikmati hangat di pagi hari atau saat butuh tambahan energi",
+    "Konsumsi 1-2 kali sehari untuk hasil optimal"
+  ],
+  composition: [
+    "Kopi – Memberikan cita rasa kopi yang khas",
+    "Gula Aren – Pemanis alami dengan nutrisi tambahan",
+    "Krimer – Memberikan tekstur creamy yang lembut",
+    "Kolagen – Mendukung kesehatan kulit & sendi",
+    "Ekstrak Ginseng – Meningkatkan stamina & vitalitas alami"
+  ]
+},
+
+{
+  id: "fibdrink",
+  name: "Hania Juicy FibDrink",
+  category: "Minuman Sehat",
+  price: 85000,
+  packageContent: "10 sachet @ 9 gram",
+  image: "assets/images/products/hania_juicy_fibdrink.webp",
+  description: "Hania Juicy FibDrink adalah minuman serbuk rasa aneka buah yang kaya serat untuk mendukung kesehatan pencernaan dan metabolisme tubuh. Diformulasikan dengan rasa buah yang menyegarkan dan tinggi serat untuk membantu proses detoks alami. Rasakan kesegaran buah-buahan dalam setiap teguknya yang membantu tubuh tetap ringan dan sehat. Segar, sehat, dan menyenangkan.",
+  benefits: [
+    "Kaya serat untuk mendukung kesehatan pencernaan",
+    "Membantu proses detoks alami dan metabolisme tubuh",
+    "Rasa buah yang menyegarkan dan nikmat",
+    "Membantu menjaga berat badan ideal secara alami"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air dingin (suhu 8°C)",
+    "Aduk rata hingga serbuk larut sempurna",
+    "Nikmati segar sebagai teman santai atau setelah makan",
+    "Konsumsi 1-2 kali sehari untuk hasil optimal"
+  ],
+  composition: [
+    "Serat Larut – Mendukung kesehatan pencernaan",
+    "Ekstrak Buah Alami – Memberikan rasa buah yang menyegarkan",
+    "Vitamin C – Antioksidan alami untuk daya tahan tubuh",
+    "Prebiotik – Mendukung kesehatan bakteri baik dalam usus"
+  ]
+},
+
+{
+  id: "fibdrink-lemon",
+  name: "Hania Juicy FibDrink Lemon",
+  category: "Minuman Sehat",
+  price: 85000,
+  packageContent: "10 sachet @ 9 gram",
+  image: "assets/images/products/hania_juicy_fibdrink_lemon.webp",
+  description: "Hania Juicy FibDrink Lemon adalah minuman serbuk rasa lemon yang kaya serat untuk mendukung kesehatan pencernaan dan detoks alami. Dengan kandungan Psyllium Husk 40,5% dan pemanis alami stevia, membantu menjaga berat badan ideal tanpa rasa bersalah. Rasakan kesegaran lemon yang menyegarkan dengan manfaat serat tinggi untuk tubuh yang lebih ringan. Segar, sehat, dan rendah kalori.",
+  benefits: [
+    "Kaya serat Psyllium Husk untuk mendukung kesehatan pencernaan",
+    "Pemanis alami stevia & eritritol, aman untuk diet rendah gula",
+    "Membantu proses detoks alami dan metabolisme tubuh",
+    "Rasa lemon segar yang menyegarkan dan nikmat"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air dingin (suhu 8°C)",
+    "Aduk rata hingga serbuk larut sempurna",
+    "Nikmati segar sebagai teman santai atau setelah makan",
+    "Konsumsi 1 sachet per hari. Hindari konsumsi berlebihan."
+  ],
+  warning: "Konsumsi berlebihan dapat menyebabkan efek laksatif (mencret).",
+  composition: [
+    "Psyllium Husk (40,5%) – Serat tinggi untuk pencernaan sehat",
+    "Pemanis Alami (Xilitol, Eritritol) – Rasa manis tanpa kalori berlebihan",
+    "Inulin – Prebiotik untuk kesehatan usus",
+    "Jeruk Lemon Bubuk (6,38%) – Vitamin C & rasa segar alami",
+    "Fruktosa dengan Sulfit – Pemanis alami dengan pengawet makanan",
+    "Enzim Papain – Membantu pencernaan protein",
+    "Ekstrak Mint – Menyegarkan napas & menenangkan perut",
+    "Wortel Bubuk (5%) – Kaya beta karoten & vitamin A",
+    "Lidah Buaya Bubuk (4,75%) – Menenangkan saluran pencernaan",
+    "Daun Ungu – Mendukung kesehatan pembuluh darah",
+    "Jeruk Nipis Bubuk – Menambah kesegaran & vitamin C",
+    "Glikosida Steviol (Stevia) – Pemanis alami tanpa gula"
+  ]
 }
 
   // ... produk lainnya
