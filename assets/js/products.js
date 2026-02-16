@@ -696,6 +696,250 @@ const products = [
   composition: [
     "Susu Sapi Full Cream (100%) – Nutrisi lengkap untuk kesehatan"
   ]
+},
+
+{
+  id: "hni-health",
+  name: "HNI Health",
+  category: "Madu Herbal",
+  price: 80000,
+  packageContent: "Netto: 250ml",
+  image: "assets/images/products/madu_hni_health.webp",
+  description: "HNI Health adalah formula lengkap 21 bahan herbal alami dalam madu untuk memelihara kesehatan tubuh menyeluruh. Menggabungkan sari kurma, royal jelly, habbatussauda, dan ekstrak herbal pilihan sebagai nutrisi harian keluarga. Mendukung stamina, daya tahan tubuh, dan keseimbangan metabolisme secara alami. Konsumsi rutin untuk tubuh yang lebih bugar dan vitalitas optimal setiap hari.",
+  benefits: [
+    "Memelihara kesehatan tubuh secara menyeluruh",
+    "Meningkatkan stamina dan daya tahan tubuh",
+    "Kaya nutrisi dari 21 bahan herbal alami",
+    "Mendukung keseimbangan metabolisme harian"
+  ],
+  howToUse: [
+    "Dewasa: 2-3 x 3 sdm per hari",
+    "Anak-anak: 2-3 x 3 sdt per hari"
+  ],
+  composition: [
+    "Sari Kurma – Sumber energi alami & kaya nutrisi",
+    "Madu Alami – Antibakteri & penambah stamina",
+    "Royal Jelly – Vitalitas & kesehatan kulit",
+    "Bee Polen – Protein & vitamin untuk daya tahan",
+    "Bayam Merah – Kaya zat besi & antioksidan",
+    "Wortel – Vitamin A untuk kesehatan mata",
+    "Beras Hitam – Antioksidan & serat tinggi",
+    "Rosella Ungu – Menjaga kesehatan jantung",
+    "Habbatussauda – Mendukung sistem kekebalan",
+    "Zaitun – Antioksidan & baik untuk jantung",
+    "Blueberry – Kesehatan otak & penglihatan",
+    "Blackberry – Antioksidan tinggi",
+    "Daun Ashitaba – Regenerasi sel & metabolisme",
+    "Curcuma – Anti-inflamasi alami",
+    "Kulit Manggis – Xanthone untuk antioksidan",
+    "Daun Sirsak – Mendukung kesehatan sel",
+    "Plum Hitam – Serat & pencernaan sehat",
+    "Anggur Hitam – Antioksidan & kesehatan jantung",
+    "Spirulina – Superfood nutrisi lengkap",
+    "Daun Stevia – Pemanis alami tanpa kalori",
+    "Meniran – Detoks alami & kesehatan hati"
+  ]
+},
+{
+  id: "zidavit",
+  name: "Zidavit",
+  category: "Madu Herbal",
+  price: 80000,
+  packageContent: "Netto: 250 gr",
+  image: "assets/images/products/madu_zidavit.webp",
+  description: "Zidavit adalah madu herbal khusus yang membantu memelihara kesehatan dengan menambah zat besi alami dan meningkatkan nafsu makan. Diperkaya ekstrak belut, temulawak, dan pegagan untuk mendukung tumbuh kembang optimal anak. Formula lembut yang disukai anak dengan rasa jeruk yang menyegarkan. Solusi alami untuk anak yang susah makan dan butuh tambahan nutrisi.",
+  benefits: [
+    "Membantu menambah zat besi alami dalam tubuh",
+    "Meningkatkan nafsu makan anak secara alami",
+    "Mendukung tumbuh kembang optimal",
+    "Mengandung ekstrak herbal penambah nutrisi"
+  ],
+  howToUse: [
+    "Usia 2-3 thn: 2 x 1 sdt sehari",
+    "Usia 4-12 thn: 2-3 x 2 sdm sehari"
+  ],
+  composition: [
+    "Mel Depuratum (Madu Murni) – Sumber nutrisi alami",
+    "Anguila Bicolor Extract (Ekstrak Belut) – Kaya protein & zat besi",
+    "Curcuma Xanthoriza (Temulawak) – Meningkatkan nafsu makan",
+    "Centella Asiatica (Pegagan) – Mendukung perkembangan otak",
+    "Orange Aroma – Rasa jeruk yang disukai anak"
+  ]
+},
+{
+  id: "fitago",
+  name: "Fitago",
+  category: "Madu Herbal",
+  price: 65000,
+  packageContent: "Netto: 250 gram",
+  image: "assets/images/products/madu_fitago.webp",
+  description: "Fitago adalah madu herbal sinergis yang membantu memelihara daya tahan tubuh dengan kombinasi 13 bahan alami pilihan. Mengandung madu murni, kurma, habbatussauda, dan ekstrak herbal untuk perlindungan alami dari dalam. Rasakan manfaat lengkap dalam satu sendok makan untuk tubuh yang lebih kuat menghadapi aktivitas padat. Teman sehat untuk keluarga aktif sepanjang hari.",
+  benefits: [
+    "Membantu memelihara daya tahan tubuh",
+    "Kaya antioksidan dari ekstrak herbal alami",
+    "Mendukung stamina harian tanpa efek samping",
+    "Formula sinergis 13 bahan herbal pilihan"
+  ],
+  howToUse: [
+    "Konsumsi 1-2 sendok makan setiap pagi",
+    "Dapat diminum langsung atau dicampur air hangat",
+    "Disarankan rutin setiap hari untuk hasil optimal"
+  ],
+  composition: [
+    "Madu Murni – Antibakteri & sumber energi",
+    "Kurma – Kaya nutrisi & penambah stamina",
+    "Zaitun – Antioksidan tinggi",
+    "Rosella – Menjaga kesehatan jantung",
+    "Anggur & Delima – Kaya vitamin & mineral",
+    "Habbatussauda – Mendukung sistem kekebalan",
+    "Blueberry – Kesehatan otak & penglihatan",
+    "Kulit Manggis – Xanthone antioksidan",
+    "Daun Sirsak – Mendukung kesehatan sel",
+    "Kunyit – Anti-inflamasi alami",
+    "Spirulina – Superfood nutrisi lengkap",
+    "Daun Stevia – Pemanis alami",
+    "Ekstrak Herbal Lainnya – Sinergi kesehatan menyeluruh"
+  ]
+},
+{
+  id: "madu-habbat",
+  name: "Madu Habbat",
+  category: "Madu Herbal",
+  price: 130000,
+  packageContent: "Netto: 250 gr",
+  image: "assets/images/products/madu_habbat.webp",
+  description: "Madu Habbat adalah madu murni berkualitas tinggi yang mengandung 181 jenis senyawa alami termasuk 11 asam amino esensial. Dihasilkan dari nektar bunga pilihan oleh lebah unggul untuk nutrisi lengkap tubuh. Kaya vitamin, mineral, enzim, dan zat antimikroba alami yang mendukung kesehatan menyeluruh. Kemurnian alami untuk menjaga vitalitas dan daya tahan tubuh setiap hari.",
+  benefits: [
+    "Mengandung 181 jenis senyawa alami",
+    "11 asam amino esensial untuk tubuh",
+    "Kaya zat antimikroba & antibiotik alami",
+    "Mendukung vitalitas dan daya tahan tubuh"
+  ],
+  howToUse: [
+    "Dewasa: 1-2 sdm setiap pagi",
+    "Anak-anak: 1 sdt setiap pagi",
+    "Dapat diminum langsung atau dicampur air hangat"
+  ],
+  composition: [
+    "Madu 100% – Nutrisi lengkap & kemurnian alami"
+  ]
+},
+{
+  id: "madu-kental",
+  name: "Madu Kental",
+  category: "Madu Herbal",
+  price: 250000,
+  packageContent: "Netto: 250 gr",
+  image: "assets/images/products/madu kental.webp",
+  description: "Madu Herbal adalah madu murni premium dari nektar buah longan dengan tekstur kental dan rasa yang khas. Dihasilkan dari lebah unggul tanpa campuran bahan lain untuk menjaga kemurnian nutrisi. Kaya enzim alami, vitamin, dan mineral yang mendukung kesehatan tubuh menyeluruh. Kemewahan rasa dan nutrisi dalam setiap tetesnya untuk kesehatan optimal.",
+  benefits: [
+    "100% madu murni dari nektar buah longan",
+    "Tekstur kental dengan rasa khas yang lezat",
+    "Kaya enzim alami & nutrisi lengkap",
+    "Tanpa campuran bahan pengawet atau pemanis"
+  ],
+  howToUse: [
+    "Konsumsi 1-2 sdm setiap pagi",
+    "Dapat dicampur air hangat atau teh",
+    "Cocok sebagai pengganti gula pada makanan"
+  ],
+  composition: [
+    "100% Madu Asli – Kemurnian nutrisi dari nektar longan"
+  ]
+},
+{
+  id: "madu-multiflora",
+  name: "Madu Multiflora",
+  category: "Madu Herbal",
+  price: 100000,
+  packageContent: "Netto: 250 gr",
+  image: "assets/images/products/madu_multiflora.webp",
+  description: "Madu Multiflora adalah madu alami tanpa tambahan bahan lain yang dihasilkan dari lebah unggul Apis Mellifera. Telah melalui kendali mutu ketat dengan kadar air rendah untuk mencegah fermentasi dan menjaga keutuhan nutrisi. Kaya vitamin, mineral, enzim, dan zat antimikroba alami untuk mendukung kesehatan tubuh menyeluruh. Keaslian terjamin untuk keluarga sehat setiap hari.",
+  benefits: [
+    "100% madu alami tanpa campuran",
+    "Kadar air rendah, bebas fermentasi",
+    "Kaya vitamin, mineral & enzim alami",
+    "Telah melalui kendali mutu ketat"
+  ],
+  howToUse: [
+    "Dewasa: 1-2 sdm setiap pagi",
+    "Anak-anak: 1 sdt setiap pagi",
+    "Dapat diminum langsung atau dicampur air hangat"
+  ],
+  composition: [
+    "Madu 100% – Kemurnian nutrisi dari lebah Apis Mellifera"
+  ]
+},
+{
+  id: "madu-pahit",
+  name: "Madu Pahit",
+  category: "Madu Herbal",
+  price: 120000,
+  packageContent: "Netto: 250 gr",
+  image: "assets/images/products/madu_pahit.webp",
+  description: "Madu Pahit memiliki rasa khas dari lebah Apis dorsata yang mengonsumsi nektar tanaman pahit seperti jati, mahoni, dan kirinyuh. Mengandung alkaloid tinggi sebagai antibakteri alami yang efektif melawan berbagai bakteri berbahaya. Formula unik untuk membersihkan tubuh dari dalam dan mendukung kesehatan pencernaan. Keunikan rasa untuk manfaat kesehatan yang maksimal.",
+  benefits: [
+    "Kandungan alkaloid tinggi sebagai antibakteri alami",
+    "Membantu membersihkan tubuh dari dalam",
+    "Mendukung kesehatan pencernaan",
+    "Rasa khas dari nektar tanaman pahit pilihan"
+  ],
+  howToUse: [
+    "Konsumsi 1 sdm setiap pagi",
+    "Dapat dicampur air hangat untuk mengurangi rasa pahit",
+    "Disarankan rutin untuk detoks alami"
+  ],
+  composition: [
+    "Madu 100% – Antibakteri alami dari nektar tanaman pahit"
+  ]
+},
+{
+  id: "madu-s-jaga",
+  name: "Madu S Jaga",
+  category: "Madu Herbal",
+  price: 120000,
+  packageContent: "Netto: 285 gr",
+  image: "assets/images/products/madu_sjaga.webp",
+  description: "Madu S Jaga adalah kombinasi madu multiflora, sari kurma murni, dan ekstrak herbal alami untuk membantu memelihara daya tahan tubuh. Formula sinergis yang memberikan nutrisi lengkap untuk menjaga stamina dan vitalitas sepanjang hari. Rasakan kehangatan herbal yang menyatu sempurna dengan kelezatan madu dan sari kurma. Perlindungan alami untuk tubuh yang lebih kuat menghadapi tantangan harian.",
+  benefits: [
+    "Membantu memelihara daya tahan tubuh",
+    "Kombinasi madu, sari kurma & ekstrak herbal",
+    "Memberikan energi stabil sepanjang hari",
+    "Mendukung stamina dan vitalitas alami"
+  ],
+  howToUse: [
+    "Dewasa: 2 x 1 sendok makan sehari",
+    "Minum setiap pagi dan sore hari",
+    "Dapat diminum langsung atau dicampur air hangat"
+  ],
+  composition: [
+    "Madu Multiflora – Sumber nutrisi & antibakteri",
+    "Sari Kurma Murni – Energi alami & kaya nutrisi",
+    "Ekstrak Herbal Alami – Sinergi kesehatan menyeluruh"
+  ]
+},
+{
+  id: "sari-kurma",
+  name: "Sari Kurma",
+  category: "Madu Herbal",
+  price: 50000,
+  packageContent: "Netto: 350 gr",
+  image: "assets/images/products/sari_kurma.webp",
+  description: "Sari Kurma adalah ekstrak buah kurma murni 100% yang digunakan secara tradisional untuk menjaga kesehatan badan. Kaya akan zat besi, potassium, serat, dan antioksidan alami untuk mendukung stamina dan kesehatan jantung. Rasakan manis alami kurma tanpa tambahan gula atau pengawet. Nutrisi lengkap dari buah surga untuk kesehatan optimal keluarga.",
+  benefits: [
+    "100% sari kurma murni tanpa campuran",
+    "Kaya zat besi untuk mencegah anemia",
+    "Mendukung kesehatan jantung & stamina",
+    "Sumber serat alami untuk pencernaan sehat"
+  ],
+  howToUse: [
+    "Dewasa: 1-2 sdm setiap pagi",
+    "Anak-anak: 1 sdt setiap pagi",
+    "Dapat diminum langsung atau dicampur susu"
+  ],
+  composition: [
+    "100% Sari Kurma – Nutrisi lengkap dari buah kurma pilihan"
+  ]
 }
   // ... produk lainnya
 ];
