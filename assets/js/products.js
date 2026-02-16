@@ -496,8 +496,207 @@ const products = [
     "Jeruk Nipis Bubuk – Menambah kesegaran & vitamin C",
     "Glikosida Steviol (Stevia) – Pemanis alami tanpa gula"
   ]
+},
+{
+  id: "hania-gluta-juicy-drink",
+  name: "Hania Gluta Juicy Drink",
+  category: "Minuman Sehat",
+  price: 185000,
+  packageContent: "10 sachet @ 15 gram",
+  image: "assets/images/products/hania_gluta.webp",
+  description: "Hania Gluta Juicy Drink adalah minuman serbuk rasa aneka buah yang diperkaya kolagen untuk kesehatan kulit yang menyeluruh. Kombinasi rasa buah yang menyegarkan dengan manfaat kolagen membantu menjaga kekenyalan dan kecerahan kulit dari dalam. Rasakan kesegaran buah-buahan dengan nutrisi yang mendukung kulit sehat bercahaya. Kecantikan alami dalam setiap teguknya.",
+  benefits: [
+    "Kolagen mendukung kekenyalan & kecerahan kulit",
+    "Rasa buah aneka yang menyegarkan dan nikmat",
+    "Membantu menjaga kesehatan kulit dari dalam",
+    "Praktis untuk dikonsumsi setiap hari"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air dingin (suhu 8°C)",
+    "Aduk rata hingga serbuk larut sempurna",
+    "Nikmati segar sebagai teman santai atau setelah makan",
+    "Konsumsi 1-2 kali sehari untuk hasil optimal"
+  ],
+  composition: [
+    "Kolagen – Mendukung kekenyalan & elastisitas kulit",
+    "Ekstrak Buah Alami – Memberikan rasa segar & vitamin",
+    "Vitamin C – Antioksidan untuk kulit cerah",
+    "Pemanis Alami – Rasa manis tanpa kalori berlebihan"
+  ]
+},
+{
+  id: "sweetevi",
+  name: "SweetEvi",
+  category: "Pemanis Alami",
+  price: 60000,
+  packageContent: "Netto: 10 ml",
+  image: "assets/images/products/pemanis_sweetevi.webp",
+  description: "SweetEvi adalah pemanis alami 100% dari ekstrak daun stevia yang memberikan rasa manis tanpa kalori dan aman untuk diabetesi. Tidak mengandung gula, tidak meningkatkan kadar gula darah, dan bebas efek samping. Cukup 1-2 tetes untuk memberikan rasa manis alami pada minuman atau makanan Anda. Manis sehat tanpa rasa bersalah.",
+  benefits: [
+    "100% daun stevia, tanpa campuran bahan kimia",
+    "Nol kalori dan aman untuk penderita diabetes",
+    "Tidak meningkatkan kadar gula darah",
+    "Praktis hanya 1-2 tetes untuk rasa manis optimal"
+  ],
+  howToUse: [
+    "Kocok botol sebelum digunakan",
+    "Tambahkan 1-2 tetes ke dalam minuman atau makanan",
+    "Sesuaikan jumlah tetesan dengan tingkat kemanisan yang diinginkan",
+    "Cocok untuk kopi, teh, jus, atau masakan"
+  ],
+  composition: [
+    "Daun Stevia Cair (100%) – Pemanis alami tanpa kalori"
+  ]
+},
+{
+  id: "etta-goat-milk",
+  name: "Etta Goat Milk",
+  category: "Susu Sehat",
+  price: 75000,
+  packageContent: "10 sachet @ 25 gram",
+  image: "assets/images/products/etta_goatmilk.webp",
+  description: "Etta Goat Milk adalah susu kambing bubuk premium yang lebih mudah dicerna dan kaya nutrisi untuk mendukung kesehatan tubuh menyeluruh. Kandungan kalsium, protein, dan vitamin B2 yang tinggi baik untuk pertumbuhan anak dan menjaga kesehatan tulang dewasa. Rasakan kelezatan susu kambing yang gurih dengan manfaat nutrisi lengkap. Nutrisi alami untuk seluruh keluarga.",
+  benefits: [
+    "Lebih mudah dicerna dibanding susu sapi",
+    "Kaya kalsium untuk kesehatan tulang & gigi",
+    "Tinggi protein untuk mendukung pertumbuhan",
+    "Baik dikonsumsi semua usia, anak hingga dewasa"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air hangat (60-70°C)",
+    "Aduk hingga larut sempurna dan berwarna putih creamy",
+    "Nikmati hangat di pagi atau malam hari",
+    "Dapat dikonsumsi 1-2 kali sehari"
+  ],
+  composition: [
+    "Susu Kambing Etawa Bubuk – Kaya nutrisi & mudah dicerna",
+    "Gula – Memberikan rasa manis alami"
+  ]
+},
+{
+  id: "etta-goat-milk-aren",
+  name: "Etta Goat Milk Aren",
+  category: "Susu Sehat",
+  price: 80000,
+  packageContent: "10 sachet @ 25 gram",
+  image: "assets/images/products/etta_susu_kambing_aren.webp",
+  description: "Etta Goat Milk Aren adalah susu kambing bubuk premium yang dipadukan dengan gula aren alami untuk rasa yang lebih nikmat dan energi yang stabil. Kandungan susu kambing 40% memberikan nutrisi lengkap, sementara gula aren memberikan manfaat mineral tambahan. Rasakan kehangatan dan kelezatan kombinasi susu kambing dengan aroma khas gula aren. Nutrisi lengkap dengan cita rasa tradisional.",
+  benefits: [
+    "Kombinasi susu kambing & gula aren untuk nutrisi lengkap",
+    "Gula aren memberikan energi stabil tanpa spike gula darah",
+    "Kaya kalsium & protein untuk kesehatan tulang",
+    "Aroma khas aren yang menggugah selera"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air hangat (60-70°C)",
+    "Aduk hingga larut sempurna dan berwarna cokelat creamy",
+    "Nikmati hangat di pagi atau malam hari",
+    "Dapat dikonsumsi 1-2 kali sehari"
+  ],
+  composition: [
+    "Susu Kambing Etawa Bubuk (49.2%) – Kaya nutrisi & mudah dicerna",
+    "Krimer Bubuk (45.5%) – Memberikan tekstur creamy",
+    "Gula Aren (5.4%) – Pemanis alami dengan mineral tambahan"
+  ]
+},
+{
+  id: "etta-goat-milk-cokelat",
+  name: "Etta Goat Milk Cokelat",
+  category: "Susu Sehat",
+  price: 85000,
+  packageContent: "10 sachet @ 25 gram",
+  image: "assets/images/products/etta_susu_kambing_cokelat.webp",
+  description: "Etta Goat Milk Cokelat adalah susu kambing bubuk premium dengan rasa cokelat yang lezat untuk menambah kenikmatan konsumsi susu harian. Tetap mempertahankan manfaat nutrisi susu kambing yang kaya kalsium dan protein, dengan tambahan cita rasa cokelat yang disukai anak-anak dan dewasa. Rasakan kelezatan cokelat yang menyatu sempurna dengan gurihnya susu kambing. Sehat dan nikmat dalam satu gelas.",
+  benefits: [
+    "Rasa cokelat yang disukai anak-anak & dewasa",
+    "Tetap kaya nutrisi susu kambing yang mudah dicerna",
+    "Kaya kalsium untuk kesehatan tulang & gigi",
+    "Membuat minum susu jadi lebih menyenangkan"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air hangat (60-70°C)",
+    "Aduk hingga larut sempurna dan berwarna cokelat",
+    "Nikmati hangat di pagi atau malam hari",
+    "Dapat disajikan dingin dengan es batu"
+  ],
+  composition: [
+    "Susu Kambing Etawa Bubuk – Kaya nutrisi & mudah dicerna",
+    "Krimer Bubuk – Memberikan tekstur creamy",
+    "Cokelat – Memberikan rasa & aroma yang lezat"
+  ]
+},
+{
+  id: "hania-susu-kambing-full-cream",
+  name: "Hania Susu Kambing Full Cream",
+  category: "Susu Sehat",
+  price: 75000,
+  packageContent: "10 pouches @ 20 gram",
+  image: "assets/images/products/hania_goatmilk.webp",
+  description: "Hania Susu Kambing Full Cream adalah susu kambing bubuk 100% tanpa campuran bahan lain, memberikan nutrisi alami yang lengkap untuk kesehatan tubuh menyeluruh. Kaya akan kalsium, protein, dan vitamin B2 yang baik untuk pertumbuhan anak dan menjaga kesehatan tulang dewasa. Rasakan kemurnian susu kambing yang gurih dengan semua manfaat nutrisinya yang utuh. Kemurnian alami untuk kesehatan optimal.",
+  benefits: [
+    "100% susu kambing bubuk tanpa campuran",
+    "Kaya kalsium untuk kesehatan tulang & gigi",
+    "Tinggi protein untuk mendukung pertumbuhan",
+    "Baik dikonsumsi oleh anak-anak dan dewasa"
+  ],
+  howToUse: [
+    "Seduh 1 pouch dengan 150ml air hangat (60-70°C)",
+    "Aduk hingga larut sempurna dan berwarna putih creamy",
+    "Nikmati hangat di pagi atau malam hari",
+    "Dapat dikonsumsi 1-2 kali sehari"
+  ],
+  composition: [
+    "Susu Kambing Bubuk (100%) – Kemurnian nutrisi alami"
+  ]
+},
+{
+  id: "hania-susu-kambing-skim",
+  name: "Hania Susu Kambing Skim",
+  category: "Susu Sehat",
+  price: 100000,
+  packageContent: "10 pouches @ 20 gram",
+  image: "assets/images/products/hania_susu_kambing_skim.webp",
+  description: "Hania Susu Kambing Skim adalah susu kambing bubuk rendah lemak tanpa penambahan gula, cocok untuk diet sehat dan menjaga berat badan ideal. Tetap kaya protein dan kalsium untuk mendukung kesehatan tulang tanpa khawatir lemak berlebihan. Rasakan nutrisi lengkap susu kambing dengan formula yang lebih ringan untuk tubuh. Sehat tanpa kompromi.",
+  benefits: [
+    "Rendah lemak, cocok untuk diet sehat",
+    "Tanpa penambahan gula, aman untuk diabetesi",
+    "Tinggi protein untuk menjaga massa otot",
+    "Kaya kalsium untuk kesehatan tulang"
+  ],
+  howToUse: [
+    "Seduh 1 pouch dengan 150ml air hangat (60-70°C)",
+    "Aduk hingga larut sempurna",
+    "Nikmati hangat di pagi hari atau setelah olahraga",
+    "Dapat dikonsumsi 1-2 kali sehari"
+  ],
+  composition: [
+    "Susu Kambing Bubuk (100%) – Rendah lemak, tinggi protein"
+  ]
+},
+{
+  id: "hania-susu-sapi-full-cream",
+  name: "Hania Susu Sapi Full Cream",
+  category: "Susu Sehat",
+  price: 75000,
+  packageContent: "10 sachet @ 25 gram",
+  image: "assets/images/products/hania_susu_sapi-fcream.webp",
+  description: "Hania Susu Sapi Full Cream adalah susu bubuk full cream 100% yang memberikan nutrisi lengkap untuk mendukung kesehatan tubuh dan pertumbuhan optimal. Kaya akan kalsium, protein, dan vitamin D untuk kesehatan tulang, gigi, dan daya tahan tubuh. Rasakan kelezatan susu full cream yang creamy dan gurih untuk memenuhi kebutuhan nutrisi harian keluarga. Nutrisi lengkap untuk hari yang lebih berenergi.",
+  benefits: [
+    "100% susu sapi full cream tanpa campuran",
+    "Kaya kalsium & vitamin D untuk kesehatan tulang",
+    "Tinggi protein untuk mendukung pertumbuhan & perbaikan sel",
+    "Memberikan energi untuk aktivitas sepanjang hari"
+  ],
+  howToUse: [
+    "Seduh 1 sachet dengan 150ml air hangat (60-70°C)",
+    "Aduk hingga larut sempurna dan berwarna putih creamy",
+    "Nikmati hangat di pagi atau malam hari",
+    "Dapat dikonsumsi 1-2 kali sehari"
+  ],
+  composition: [
+    "Susu Sapi Full Cream (100%) – Nutrisi lengkap untuk kesehatan"
+  ]
 }
-
   // ... produk lainnya
 ];
 
