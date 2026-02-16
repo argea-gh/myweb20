@@ -498,7 +498,7 @@ const products = [
   ]
 },
 {
-  id: "hania-gluta-juicy-drink",
+  id: "gluta-juicy-drink",
   name: "Hania Gluta Juicy Drink",
   category: "Minuman Sehat",
   price: 185000,
@@ -527,7 +527,7 @@ const products = [
 {
   id: "sweetevi",
   name: "SweetEvi",
-  category: "Pemanis Alami",
+  category: "Minuman Sehat",
   price: 60000,
   packageContent: "Netto: 10 ml",
   image: "assets/images/products/pemanis_sweetevi.webp",
@@ -549,9 +549,9 @@ const products = [
   ]
 },
 {
-  id: "etta-goat-milk",
+  id: "goat-milk",
   name: "Etta Goat Milk",
-  category: "Susu Sehat",
+  category: "Minuman Sehatt",
   price: 75000,
   packageContent: "10 sachet @ 25 gram",
   image: "assets/images/products/etta_goatmilk.webp",
@@ -574,9 +574,9 @@ const products = [
   ]
 },
 {
-  id: "etta-goat-milk-aren",
+  id: "goat-milk-aren",
   name: "Etta Goat Milk Aren",
-  category: "Susu Sehat",
+  category: "Minuman Sehat",
   price: 80000,
   packageContent: "10 sachet @ 25 gram",
   image: "assets/images/products/etta_susu_kambing_aren.webp",
@@ -600,9 +600,9 @@ const products = [
   ]
 },
 {
-  id: "etta-goat-milk-cokelat",
+  id: "goat-milk-ck",
   name: "Etta Goat Milk Cokelat",
-  category: "Susu Sehat",
+  category: "Minuman Sehat",
   price: 85000,
   packageContent: "10 sachet @ 25 gram",
   image: "assets/images/products/etta_susu_kambing_cokelat.webp",
@@ -626,9 +626,9 @@ const products = [
   ]
 },
 {
-  id: "hania-susu-kambing-full-cream",
+  id: "susu-kambing-fc",
   name: "Hania Susu Kambing Full Cream",
-  category: "Susu Sehat",
+  category: "Minuman Sehat",
   price: 75000,
   packageContent: "10 pouches @ 20 gram",
   image: "assets/images/products/hania_goatmilk.webp",
@@ -650,9 +650,9 @@ const products = [
   ]
 },
 {
-  id: "hania-susu-kambing-skim",
+  id: "susu-kambing-skim",
   name: "Hania Susu Kambing Skim",
-  category: "Susu Sehat",
+  category: "Minuman Sehat",
   price: 100000,
   packageContent: "10 pouches @ 20 gram",
   image: "assets/images/products/hania_susu_kambing_skim.webp",
@@ -674,9 +674,9 @@ const products = [
   ]
 },
 {
-  id: "hania-susu-sapi-full-cream",
+  id: "susu-sapi-fc",
   name: "Hania Susu Sapi Full Cream",
-  category: "Susu Sehat",
+  category: "Minuman Sehat",
   price: 75000,
   packageContent: "10 sachet @ 25 gram",
   image: "assets/images/products/hania_susu_sapi-fcream.webp",
